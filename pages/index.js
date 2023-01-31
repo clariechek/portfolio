@@ -6,12 +6,11 @@ import avatar from '../public/avatar.png';
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
-import web1 from '../public/web1.png';
-import web2 from '../public/web2.png';
-import web3 from '../public/web3.png';
-import web4 from '../public/web4.png';
-import web5 from '../public/web5.png';
-import web6 from '../public/web6.png';
+import portfolio from '../public/portfolio.png';
+import bmi from '../public/bmi.png';
+import robot from '../public/robot.png';
+import casino from '../public/casino.png';
+import nim from '../public/nim.png';
 import { useState } from 'react';
 // Image credit: <a href="https://www.freepik.com/free-vector/young-woman-white_4952190.htm#page=2&query=woman%20cartoon&position=12&from_view=search&track=sph">Image by grmarc</a> on Freepik
 
@@ -37,67 +36,90 @@ export default function Home() {
            </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Clarie Chek</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-50'>Developer and designer.</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo adipisci amet provident repellat aperiam veritatis, explicabo sit quae at, voluptate fugiat quos neque placeat culpa soluta, quod blanditiis voluptatibus quia.</p>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Hi, I'm Clarie!</h2>
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-50'>Developer | Student</h3>
+            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+              <Image src={avatar} layout='fill' objectFit='cover' alt="avatar image" />
+            </div>
+          </div>
+          <div className='text-center p-10'>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-lg max-w-lg mx-auto dark:text-gray-400'>I'm a driven and enthusiastic student developer, with a passion for creating innovative solutions to help others and make a positive impact in my community. I am always looking to take on new challenges and grow as a developer. This website provides a glimpse into my journey as a student developer.</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-lg max-w-lg mx-auto dark:text-gray-400'>Let's connect and build something amazing together!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-50'>
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={avatar} layout='fill' objectFit='cover' alt="avatar image" />
-          </div>
+          
         </section>
-        {/* page 2 */}
+        {/* page 2 - Background */}
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-gray-50'>Background</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>Lorem ipsum <span className='text-teal-500' >dolor</span> sit amet consectetur adipisicing elit. Est corporis impedit laboriosam, rerum odit doloribus maiores repellendus, doloremque asperiores voluptate ipsam error assumenda rem cupiditate sed, repudiandae consectetur quas? Nostrum!</p>
-          </div>
-          <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} widht={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Beautiful Designs</h3>
-              <p className='py-2 dark:text-gray-50'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem soluta laboriosam inventore ducimus molestiae saepe ratione vitae doloremque corrupti cupiditate commodi, dolores sed nostrum aut voluptas repellat laborum aspernatur.
-              </p>
-              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-              <p className='text-gray-800 py-1 dark:text-gray-50'>Lorem</p>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={code} widht={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Beautiful Designs</h3>
-              <p className='py-2 dark:text-gray-50'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem soluta laboriosam inventore ducimus molestiae saepe ratione vitae doloremque corrupti cupiditate commodi, dolores sed nostrum aut voluptas repellat laborum aspernatur.
-              </p>
-              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-              <p className='text-gray-800 py-1 dark:text-gray-50'>Lorem</p>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={consulting} widht={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Beautiful Designs</h3>
-              <p className='py-2 dark:text-gray-50'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem soluta laboriosam inventore ducimus molestiae saepe ratione vitae doloremque corrupti cupiditate commodi, dolores sed nostrum aut voluptas repellat laborum aspernatur.
-              </p>
-              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-              <p className='text-gray-800 py-1 dark:text-gray-50'>Lorem</p>
-            </div>
+            <h3 className='text-3xl mt-20 py-1 dark:text-gray-50'>Background</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>I'm a <span className="text-teal-500">penultimate</span> year student in the <span className="text-teal-500" >Bachelor of Mathematical and Computer Sciences with the Bachelor of Finance</span> at the University of Adelaide. I wrote my first line of code in university and it was incredibly foreign yet empowering to learn about all the things I could create with this skill.</p>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>I have experience in the following programming languages and technologies:</p>
+            <p className='text-sm text-gray-800 dark:text-gray-50'><span className='text-teal-500' >Languages:</span> C++, Flutter, Javascript, HTML, CSS, Typescript, MATLAB, C</p>
+            <p className='text-sm leading-8 text-gray-800 dark:text-gray-50'><span className='text-teal-500' >Technologies: </span>Git, PostgreSQL, Firebase, Heroku, Cloud Computing (Azure), Algorithms and Data Structures</p>
           </div>
         </section>
-        {/* page 3 */}
+        {/* page 3 - Portfolio */}
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-gray-50'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>Lorem ipsum <span className='text-teal-500' >dolor</span> sit amet consectetur adipisicing elit. Est corporis impedit laboriosam, rerum odit doloribus maiores repellendus, doloremque asperiores voluptate ipsam error assumenda rem cupiditate sed, repudiandae consectetur quas? Nostrum!</p>
+            <h3 className='text-3xl py-1 mt-20 dark:text-gray-50'>Portfolio</h3>
           </div>
-          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/3 flex-1'><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={web1} /></div>
-            <div className='basis-1/3 flex-1'><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={web2} /></div>
-            <div className='basis-1/3 flex-1'><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={web3} /></div>
-            <div className='basis-1/3 flex-1'><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={web4} /></div>
-            <div className='basis-1/3 flex-1'><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={web5} /></div>
-            <div className='basis-1/3 flex-1'><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={web6} /></div>
+          {/* flex flex-col gap-10 py-2 lg:flex-row lg:flex-wrap */}
+          <div className='container mx-auto p-6 grid grid-cols-2 gap-4'>
+            <div className='overflow-hidden shadow-lg rounded-xl col-span-1 flex flex-wrap flex-col justify-center bg-white border-2 hover:border-indigo-300 hover:opacity-50 p-4 dark:bg-gray-900 dark:border-gray-400'>
+              <a className='mx-auto relative block group' href="https://github.com/clariechek/portfolio" target="_blank" rel="noreferrer">
+                <Image className='p-3 rounded-lg object-cover group-hover:opacity-50' width={100} height={100} layout="responsive" src={portfolio} alt="portfolio image" />
+                <div className='transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 duration-300 absolute inset-0 '>
+                  <div className='p-2'>
+                    <p className='text-md font-semibold text-gray-800 dark:text-gray-50 md:text-lg'>Personal Portfolio Website</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className='overflow-hidden shadow-lg rounded-xl col-span-1 flex flex-wrap flex-col justify-center bg-white border-2 hover:border-indigo-300 hover:opacity-50 p-4 dark:bg-gray-900 dark:border-gray-400'>
+              <a className='mx-auto relative block group' href="https://github.com/clariechek/bmicalc" target="_blank" rel="noreferrer">
+                <Image className='p-3 rounded-lg object-cover group-hover:opacity-50' width={100} height={100} layout="responsive" src={bmi} alt="bmi calculator image" />
+                <div className='transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 duration-300 absolute inset-0 '>
+                  <div className='p-2'>
+                    <p className='text-md font-semibold text-gray-800 dark:text-gray-50 md:text-lg'>BMI Calculator</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className='overflow-hidden shadow-lg rounded-xl col-span-1 flex flex-wrap flex-col justify-center bg-white border-2 hover:border-indigo-300 hover:opacity-50 p-4 dark:bg-gray-900 dark:border-gray-400'>
+              <a className='mx-auto relative block group' href="https://github.com/clariechek/RoboFriends" target="_blank" rel="noreferrer">
+                <Image className='p-3 rounded-lg object-cover group-hover:opacity-50' width={100} height={100} layout="responsive" src={robot} alt="robot image" />
+                <div className='transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 duration-300 absolute inset-0 '>
+                  <div className='p-2'>
+                    <p className='text-md font-semibold text-gray-800 dark:text-gray-50 md:text-lg'>RoboFriends</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            
+            <div className='overflow-hidden shadow-lg rounded-xl col-span-1 flex flex-wrap flex-col justify-center bg-white border-2 hover:border-indigo-300 hover:opacity-50 p-4 dark:bg-gray-900 dark:border-gray-400'>
+              <a className='mx-auto relative block group' href="https://github.com/clariechek/casino" target="_blank" rel="noreferrer">
+                <Image className='p-3 rounded-lg object-cover group-hover:opacity-50' width={100} height={100} layout="responsive" src={casino} alt="casino image" />
+                <div className='transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:-translate-y-0 duration-300 absolute inset-0 '>
+                  <div className='p-2'>
+                    <p className='text-md font-semibold text-gray-800 dark:text-gray-50 md:text-lg'>Casino game</p>
+                  </div>
+                </div>
+              </a>
+            </div>            
+            <div className='overflow-hidden shadow-lg rounded-xl col-span-1 flex flex-wrap flex-col justify-center bg-white border-2 hover:border-indigo-300 hover:opacity-50 p-4 dark:bg-gray-900 dark:border-gray-400'>
+              <a className='mx-auto relative block group' href="https://github.com/clariechek/nim" target="_blank" rel="noreferrer">
+                <Image className='p-3 rounded-lg object-cover group-hover:opacity-50' width={100} height={100} layout="responsive" src={nim} alt="nim game image" />
+                <div className='transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 duration-300 absolute inset-0 '>
+                  <div className='p-2'>
+                    <p className='text-md font-semibold text-gray-800 dark:text-gray-50 md:text-lg'>Game of Nim</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </section>
       </main>
