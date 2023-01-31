@@ -12,11 +12,12 @@ import robot from '../public/robot.png';
 import casino from '../public/casino.png';
 import nim from '../public/nim.png';
 import { useState } from 'react';
+import Link from 'next/link';
 // Image credit: <a href="https://www.freepik.com/free-vector/young-woman-white_4952190.htm#page=2&query=woman%20cartoon&position=12&from_view=search&track=sph">Image by grmarc</a> on Freepik
-// <a href="https://www.freepik.com/free-vector/chatbot-head-set_9174414.htm#query=robot%20cartoon&position=1&from_view=search&track=sph">Image by pch.vector</a> on Freepik
-//<a href="https://www.freepik.com/free-vector/esports-competition-preparation-professional-cybersport-videogame-development-online-gaming-pro-gamer-with-coach-digital-entertainment-industry_12145589.htm#query=multiplayer%20game%20cartoon&position=3&from_view=search&track=ais">Image by vectorjuice</a> on Freepik
-// <a href="https://www.freepik.com/free-vector/flat-woman-diet-control-normal-weight-with-bmi-scale_26195124.htm#query=bmi%20calculator%20cartoon&position=16&from_view=search&track=ais">Image by redgreystock</a> on Freepik
-//<a href="https://www.freepik.com/free-vector/happy-man-won-jackpot-casino-lucky-gambler-receiving-money-prize-risky-entertainment-slot-machine-one-armed-bandit-gambling-addiction-vector-isolated-concept-metaphor-illustration_11663416.htm#query=bet%20game%20cartoon&position=12&from_view=search&track=ais">Image by vectorjuice</a> on Freepik
+{/* <a href="https://www.freepik.com/free-vector/chatbot-head-set_9174414.htm#query=robot%20cartoon&position=1&from_view=search&track=sph">Image by pch.vector</a> on Freepik */}
+{/* <a href="https://www.freepik.com/free-vector/esports-competition-preparation-professional-cybersport-videogame-development-online-gaming-pro-gamer-with-coach-digital-entertainment-industry_12145589.htm#query=multiplayer%20game%20cartoon&position=3&from_view=search&track=ais">Image by vectorjuice</a> on Freepik */}
+{/* <a href="https://www.freepik.com/free-vector/flat-woman-diet-control-normal-weight-with-bmi-scale_26195124.htm#query=bmi%20calculator%20cartoon&position=16&from_view=search&track=ais">Image by redgreystock</a> on Freepik */}
+{/* <a href="https://www.freepik.com/free-vector/happy-man-won-jackpot-casino-lucky-gambler-receiving-money-prize-risky-entertainment-slot-machine-one-armed-bandit-gambling-addiction-vector-isolated-concept-metaphor-illustration_11663416.htm#query=bet%20game%20cartoon&position=12&from_view=search&track=ais">Image by vectorjuice</a> on Freepik */}
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -28,8 +29,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
-        <section className="min-h-screen">
+      <main className='bg-white px-10 pb-5 md:px-20 lg:px-40 dark:bg-gray-900'>
+        <Link href='/'><section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
            <h1 className='text-xl dark:text-gray-50'>Clarie Chek</h1>
            <ul className='flex items-center'>
@@ -54,8 +55,7 @@ export default function Home() {
             <a href='https://www.linkedin.com/in/clarie-chek/' target='_blank' rel='noopener noreferrer' alt='Linkedin link'><AiFillLinkedin /></a>
             <a href='https://github.com/clariechek' target='_blank' rel='noopener noreferrer' alt='Linkedin link'><AiFillGithub /></a>
           </div>
-          
-        </section>
+        </section></Link>
         {/* page 2 - Background */}
         <section>
           <div>
@@ -103,7 +103,6 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            
             <div className='overflow-hidden shadow-lg rounded-xl col-span-1 flex flex-wrap flex-col justify-center bg-white border-2 hover:border-indigo-300 hover:opacity-50 p-4 dark:bg-gray-900 dark:border-gray-400'>
               <a className='mx-auto relative block group' href="https://github.com/clariechek/casino" target="_blank" rel="noreferrer">
                 <Image className='p-3 rounded-lg object-cover group-hover:opacity-50' width={100} height={100} layout="responsive" src={casino} alt="casino image" />
@@ -126,6 +125,10 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <footer className='mt-20'>
+          <p className='text-xs text-center text-gray-800 dark:text-gray-50'>Images by <a href="https://www.freepik.com/free-vector/young-woman-white_4952190.htm#page=2&query=woman%20cartoon&position=12&from_view=search&track=sph">grmarc</a>, <a href="https://www.freepik.com/free-vector/chatbot-head-set_9174414.htm#query=robot%20cartoon&position=1&from_view=search&track=sph">pch.vector</a>, <a href="https://www.freepik.com/free-vector/esports-competition-preparation-professional-cybersport-videogame-development-online-gaming-pro-gamer-with-coach-digital-entertainment-industry_12145589.htm#query=multiplayer%20game%20cartoon&position=3&from_view=search&track=ais">vectorjuice</a>, <a href="https://www.freepik.com/free-vector/flat-woman-diet-control-normal-weight-with-bmi-scale_26195124.htm#query=bmi%20calculator%20cartoon&position=16&from_view=search&track=ais">redgreystock</a>, <a href="https://www.freepik.com/free-vector/happy-man-won-jackpot-casino-lucky-gambler-receiving-money-prize-risky-entertainment-slot-machine-one-armed-bandit-gambling-addiction-vector-isolated-concept-metaphor-illustration_11663416.htm#query=bet%20game%20cartoon&position=12&from_view=search&track=ais">vectorjuice</a> on FreePik.</p>
+          <p className='text-xs text-center text-indigo-600 dark:text-indigo-400'><Link href='/'>Back to top</Link></p>
+        </footer>
       </main>
     </div>
   )
