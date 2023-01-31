@@ -13,6 +13,10 @@ import casino from '../public/casino.png';
 import nim from '../public/nim.png';
 import { useState } from 'react';
 // Image credit: <a href="https://www.freepik.com/free-vector/young-woman-white_4952190.htm#page=2&query=woman%20cartoon&position=12&from_view=search&track=sph">Image by grmarc</a> on Freepik
+// <a href="https://www.freepik.com/free-vector/chatbot-head-set_9174414.htm#query=robot%20cartoon&position=1&from_view=search&track=sph">Image by pch.vector</a> on Freepik
+//<a href="https://www.freepik.com/free-vector/esports-competition-preparation-professional-cybersport-videogame-development-online-gaming-pro-gamer-with-coach-digital-entertainment-industry_12145589.htm#query=multiplayer%20game%20cartoon&position=3&from_view=search&track=ais">Image by vectorjuice</a> on Freepik
+// <a href="https://www.freepik.com/free-vector/flat-woman-diet-control-normal-weight-with-bmi-scale_26195124.htm#query=bmi%20calculator%20cartoon&position=16&from_view=search&track=ais">Image by redgreystock</a> on Freepik
+//<a href="https://www.freepik.com/free-vector/happy-man-won-jackpot-casino-lucky-gambler-receiving-money-prize-risky-entertainment-slot-machine-one-armed-bandit-gambling-addiction-vector-isolated-concept-metaphor-illustration_11663416.htm#query=bet%20game%20cartoon&position=12&from_view=search&track=ais">Image by vectorjuice</a> on Freepik
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -32,7 +36,7 @@ export default function Home() {
             <li>
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-gray-50'/>
             </li>
-            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-50' href="#">Resume</a></li>
+            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-50 button' href='resume.pdf' target='_blank' rel='noopener noreferrer' alt='resume pdf'>Resume</a></li>
            </ul>
           </nav>
           <div className='text-center p-10'>
@@ -47,8 +51,8 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800 md:text-lg max-w-lg mx-auto dark:text-gray-400'>Let's connect and build something amazing together!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-50'>
-            <AiFillLinkedin />
-            <AiFillGithub />
+            <a href='https://www.linkedin.com/in/clarie-chek/' target='_blank' rel='noopener noreferrer' alt='Linkedin link'><AiFillLinkedin /></a>
+            <a href='https://github.com/clariechek' target='_blank' rel='noopener noreferrer' alt='Linkedin link'><AiFillGithub /></a>
           </div>
           
         </section>
