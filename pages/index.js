@@ -3,6 +3,15 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import avatar from '../public/avatar.png';
+import design from '../public/design.png'
+import code from '../public/code.png'
+import consulting from '../public/consulting.png'
+import web1 from '../public/web1.png';
+import web2 from '../public/web2.png';
+import web3 from '../public/web3.png';
+import web4 from '../public/web4.png';
+import web5 from '../public/web5.png';
+import web6 from '../public/web6.png';
 // Image credit: <a href="https://www.freepik.com/free-vector/young-woman-white_4952190.htm#page=2&query=woman%20cartoon&position=12&from_view=search&track=sph">Image by grmarc</a> on Freepik
 
 export default function Home() {
@@ -36,6 +45,55 @@ export default function Home() {
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <Image src={avatar} layout='fill' objectFit='cover' alt="avatar image" />
+          </div>
+        </section>
+        {/* page 2 */}
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Background</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>Lorem ipsum <span className='text-teal-500' >dolor</span> sit amet consectetur adipisicing elit. Est corporis impedit laboriosam, rerum odit doloribus maiores repellendus, doloremque asperiores voluptate ipsam error assumenda rem cupiditate sed, repudiandae consectetur quas? Nostrum!</p>
+          </div>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <Image src={design} widht={100} height={100} />
+            <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+            <p className='py-2'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem soluta laboriosam inventore ducimus molestiae saepe ratione vitae doloremque corrupti cupiditate commodi, dolores sed nostrum aut voluptas repellat laborum aspernatur.
+            </p>
+            <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+            <p className='text-gray-800 py-1'>Lorem</p>
+          </div>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <Image src={code} widht={100} height={100} />
+            <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+            <p className='py-2'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem soluta laboriosam inventore ducimus molestiae saepe ratione vitae doloremque corrupti cupiditate commodi, dolores sed nostrum aut voluptas repellat laborum aspernatur.
+            </p>
+            <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+            <p className='text-gray-800 py-1'>Lorem</p>
+          </div>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <Image src={consulting} widht={100} height={100} />
+            <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+            <p className='py-2'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem soluta laboriosam inventore ducimus molestiae saepe ratione vitae doloremque corrupti cupiditate commodi, dolores sed nostrum aut voluptas repellat laborum aspernatur.
+            </p>
+            <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+            <p className='text-gray-800 py-1'>Lorem</p>
+          </div>
+        </section>
+        {/* page 3 */}
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>Lorem ipsum <span className='text-teal-500' >dolor</span> sit amet consectetur adipisicing elit. Est corporis impedit laboriosam, rerum odit doloribus maiores repellendus, doloremque asperiores voluptate ipsam error assumenda rem cupiditate sed, repudiandae consectetur quas? Nostrum!</p>
+          </div>
+          <div>
+            <div><Image src={web1} /></div>
+            <div><Image src={web2} /></div>
+            <div><Image src={web3} /></div>
+            <div><Image src={web4} /></div>
+            <div><Image src={web5} /></div>
+            <div><Image src={web6} /></div>
           </div>
         </section>
       </main>
