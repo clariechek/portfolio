@@ -51,7 +51,7 @@ export default function Home() {
         {/* page 2 - Background */}
         <section>
           <div>
-            <h3 className='text-3xl mt-20 py-1 dark:text-gray-50'>Background</h3>
+            <h3 className='text-3xl mt-20 py-1 text-black dark:text-gray-50'>Background</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>I'm a <span className="text-teal-500">penultimate</span> year student in the <span className="text-teal-500" >Bachelor of Mathematical and Computer Sciences with the Bachelor of Finance</span> at the University of Adelaide. I wrote my first line of code in university and it was incredibly foreign yet empowering to learn about all the things I could create with this skill.</p>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>I have experience in the following programming languages and technologies:</p>
             <p className='text-sm text-gray-800 dark:text-gray-50 pb-2'><span className='text-teal-500' >Languages:</span> C++, Flutter, Javascript, HTML, CSS, Typescript, MATLAB, C</p>
@@ -61,7 +61,7 @@ export default function Home() {
         {/* page 3 - Portfolio */}
         <section>
           <div>
-            <h3 className='text-3xl py-1 mt-20 dark:text-gray-50'>Portfolio</h3>
+            <h3 className='text-3xl py-1 mt-20 text-black dark:text-gray-50'>Portfolio</h3>
           </div>
           {/* flex flex-col gap-10 py-2 lg:flex-row lg:flex-wrap */}
           <div className='container mx-auto p-6 grid grid-cols-2 gap-4'>
