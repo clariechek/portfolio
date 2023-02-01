@@ -24,7 +24,7 @@ export default function Home() {
       <main className='bg-white px-10 pb-5 md:px-20 lg:px-40 dark:bg-gray-900'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-          <Link href='/top' className='text-xl text-black dark:text-gray-50'>Clarie Chek</Link>
+          <Link href='/home' className='text-xl text-black dark:text-gray-50'>Clarie Chek</Link>
            <ul className='flex items-center'>
             <li>
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-gray-50'/>
@@ -119,7 +119,7 @@ export default function Home() {
         </section>
         <footer className='mt-20'>
           <p className='text-xs text-center text-gray-800 dark:text-gray-50'>Images by <a href="https://www.freepik.com/free-vector/young-woman-white_4952190.htm#page=2&query=woman%20cartoon&position=12&from_view=search&track=sph">grmarc</a>, <a href="https://www.freepik.com/free-vector/chatbot-head-set_9174414.htm#query=robot%20cartoon&position=1&from_view=search&track=sph">pch.vector</a>, <a href="https://www.freepik.com/free-vector/esports-competition-preparation-professional-cybersport-videogame-development-online-gaming-pro-gamer-with-coach-digital-entertainment-industry_12145589.htm#query=multiplayer%20game%20cartoon&position=3&from_view=search&track=ais">vectorjuice</a>, <a href="https://www.freepik.com/free-vector/flat-woman-diet-control-normal-weight-with-bmi-scale_26195124.htm#query=bmi%20calculator%20cartoon&position=16&from_view=search&track=ais">redgreystock</a>, <a href="https://www.freepik.com/free-vector/happy-man-won-jackpot-casino-lucky-gambler-receiving-money-prize-risky-entertainment-slot-machine-one-armed-bandit-gambling-addiction-vector-isolated-concept-metaphor-illustration_11663416.htm#query=bet%20game%20cartoon&position=12&from_view=search&track=ais">vectorjuice</a> on FreePik.</p>
-          <p className='text-xs text-center text-indigo-600 dark:text-indigo-400'><Link href='/#top'>Back to top</Link></p>
+          <p className='text-xs text-center text-indigo-600 dark:text-indigo-400'><Link href='/#home'>Back to top</Link></p>
         </footer>
       </main>
     </div>
