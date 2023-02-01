@@ -35,7 +35,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Hi, I'm Clarie!</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-50'>Developer | Student</h3>
-            <div className='relative mx-auto border-teal-500 border rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+            <div className='relative mx-auto border-teal-500 border rounded-full w-full h-full mt-20 overflow-hidden md:h-96 md:w-96'>
               <Image src={avatar} className='object-fill' alt="avatar image" />
             </div>
           </div>
