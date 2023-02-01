@@ -24,12 +24,12 @@ export default function Home() {
       <main className='bg-white px-10 pb-5 md:px-20 lg:px-40 dark:bg-gray-900'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-          <Link href='/top' className='text-xl dark:text-gray-50'>Clarie Chek</Link>
+          <Link href='/top' className='text-xl text-black dark:text-gray-50'>Clarie Chek</Link>
            <ul className='flex items-center'>
             <li>
-              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-gray-50'/>
+              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-gray-50'/>
             </li>
-            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-50 button' href='resume.pdf' target='_blank' rel='noopener noreferrer' alt='resume pdf'>Resume</a></li>
+            <li><a className='shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-50 button' href='resume.pdf' target='_blank' rel='noopener noreferrer' alt='resume pdf'>Resume</a></li>
            </ul>
           </nav>
           <div className='text-center p-10'>
