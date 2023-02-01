@@ -55,7 +55,7 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>I'm a <span className="text-teal-500">penultimate</span> year student in the <span className="text-teal-500" >Bachelor of Mathematical and Computer Sciences with the Bachelor of Finance</span> at the University of Adelaide. I wrote my first line of code in university and it was incredibly foreign yet empowering to learn about all the things I could create with this skill.</p>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>I have experience in the following programming languages and technologies:</p>
             <p className='text-sm text-gray-800 dark:text-gray-50 pb-2'><span className='text-teal-500' >Languages:</span> C++, Flutter, Javascript, HTML, CSS, Typescript, MATLAB, C</p>
-            <p className='text-sm text-gray-800 dark:text-gray-50'><span className='text-teal-500' >Technologies: </span>Git, PostgreSQL, Firebase, Heroku, Cloud Computing (Azure), Algorithms and Data Structures</p>
+            <p className='text-sm text-gray-800 dark:text-gray-50 pb-2'><span className='text-teal-500' >Technologies: </span>Git, PostgreSQL, Firebase, Heroku, Cloud Computing (Azure), Algorithms and Data Structures</p>
           </div>
         </section>
         {/* page 3 - Portfolio */}
