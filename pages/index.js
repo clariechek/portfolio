@@ -24,17 +24,17 @@ export default function Home() {
       <main className='bg-white px-10 pb-5 md:px-20 lg:px-40 dark:bg-gray-900'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-          <Link href='/top' className='text-xl dark:text-gray-50'>Clarie Chek</Link>
+          <Link href='/top' className='text-xl text-black dark:text-gray-50'>Clarie Chek</Link>
            <ul className='flex items-center'>
             <li>
-              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-gray-50'/>
+              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-gray-50'/>
             </li>
-            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-50 button' href='resume.pdf' target='_blank' rel='noopener noreferrer' alt='resume pdf'>Resume</a></li>
+            <li><a className='shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-50 button' href='resume.pdf' target='_blank' rel='noopener noreferrer' alt='resume pdf'>Resume</a></li>
            </ul>
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Hi, I'm Clarie!</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-50'>Developer | Student</h3>
+            <h3 className='text-2xl py-2 md:text-3xl text-black dark:text-gray-50'>Developer | Student</h3>
             <div className='relative mx-auto border-teal-500 border rounded-full w-full h-full mt-20 overflow-hidden md:h-96 md:w-96'>
               <Image src={avatar} className='object-fill' alt="avatar image" />
             </div>
@@ -51,17 +51,17 @@ export default function Home() {
         {/* page 2 - Background */}
         <section>
           <div>
-            <h3 className='text-3xl mt-20 py-1 dark:text-gray-50'>Background</h3>
+            <h3 className='text-3xl mt-20 py-1 text-black dark:text-gray-50'>Background</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>I'm a <span className="text-teal-500">penultimate</span> year student in the <span className="text-teal-500" >Bachelor of Mathematical and Computer Sciences with the Bachelor of Finance</span> at the University of Adelaide. I wrote my first line of code in university and it was incredibly foreign yet empowering to learn about all the things I could create with this skill.</p>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>I have experience in the following programming languages and technologies:</p>
-            <p className='text-sm text-gray-800 dark:text-gray-50'><span className='text-teal-500' >Languages:</span> C++, Flutter, Javascript, HTML, CSS, Typescript, MATLAB, C</p>
-            <p className='text-sm leading-8 text-gray-800 dark:text-gray-50'><span className='text-teal-500' >Technologies: </span>Git, PostgreSQL, Firebase, Heroku, Cloud Computing (Azure), Algorithms and Data Structures</p>
+            <p className='text-sm text-gray-800 dark:text-gray-50 pb-2'><span className='text-teal-500' >Languages:</span> C++, Flutter, Javascript, HTML, CSS, Typescript, MATLAB, C</p>
+            <p className='text-sm text-gray-800 dark:text-gray-50 pb-2'><span className='text-teal-500' >Technologies: </span>Git, PostgreSQL, Firebase, Heroku, Cloud Computing (Azure), Algorithms and Data Structures</p>
           </div>
         </section>
         {/* page 3 - Portfolio */}
         <section>
           <div>
-            <h3 className='text-3xl py-1 mt-20 dark:text-gray-50'>Portfolio</h3>
+            <h3 className='text-3xl py-1 mt-20 text-black dark:text-gray-50'>Portfolio</h3>
           </div>
           {/* flex flex-col gap-10 py-2 lg:flex-row lg:flex-wrap */}
           <div className='container mx-auto p-6 grid grid-cols-2 gap-4'>
